@@ -9,7 +9,7 @@ import { useHistory } from 'react-router-dom'
 
 
 export const Dashboard = () => {
-  const history = useHistory()
+  //const history = useHistory()
   const [connecting, setConnecting] = useState(false)
   const { connected, select } = useWallet()
   const { user, posts, initialized, initUser, createPost, showModal, setShowModal, } = useBlog()
@@ -114,12 +114,12 @@ export const Dashboard = () => {
                 }}
               ></div>
               <div className="best-post-content">
-                <div className="best-post-content-cat">December 2, 2021<span className="dot"> </span>Blog</div>
+                <div className="best-post-content-cat">June 27, 2023<span className="dot"> </span>Blog</div>
                 <div className="best-post-content-title">
-                  Lorem ipsum dolor sit amet, consectetur
+                  This is a Blog Dapp.
                 </div>
                 <div className="best-post-content-sub">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  This blog dapp is based on solona ecosystem. You need to connect your phantom wallet to this to begin. The frontend for this dapp is designed in react. This dapp was created for STANFORD BOUNDLESS hackathon.
                 </div>
               </div>
             </article>
